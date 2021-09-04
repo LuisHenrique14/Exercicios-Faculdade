@@ -17,7 +17,7 @@ else:
 """
 
 #APROVADO OU REPROVADO
-'''
+
 n1 = float(input('Digite a primeira nota: '))
 n2 = float(input('Digite a segunda nota: '))
 media = (n1 + n2) / 2
@@ -35,8 +35,8 @@ elif (7 > media) and (media >= 3):
 
 else:
     print(f'O aluno está APROVADO')
-'''
 
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.arange(1,101,1)  #cria um array que vai de 1 a 100
@@ -46,7 +46,7 @@ y = np.zeros
 
 y = np.random.normal(5, 1.2, 100)
 
-print(plt.plot(x, y))
+print(plt.plot(x, y))"""
 
 
 
